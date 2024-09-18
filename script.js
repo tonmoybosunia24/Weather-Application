@@ -19,6 +19,10 @@ const displayCheckWeather = (data) =>{
               temperatureImage2.classList.remove("hidden")
               
        }
+       else{
+              temperatureImage.classList.remove("hidden")
+              temperatureImage2.classList.add("hidden")
+       }
        cityName.innerText = data.name;
        humadity.innerText = data.main.humidity;
        windSpeed.innerText = data.wind.speed
