@@ -33,6 +33,4 @@ function SearchButton(){
        const name = inputArea.value;
        checkWeather(name)
 }
-checkWeather('dinajpur')
-
-
+checkWeather('panchagarh')
